@@ -1,0 +1,22 @@
+{
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "env":{
+    "node":true,
+    "es6":true,
+    "browser": true
+  },
+
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "rules": { "prettier/prettier": "error",
+      "quotes": "off",
+      "no-console":"off",
+      "no-unused-vars":"off",
+      "no-unreachable":"off",
+      "no-redeclare":"warn"
+    }
+  }
+}
